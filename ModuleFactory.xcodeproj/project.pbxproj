@@ -15,6 +15,7 @@
 		BEEA11841FF80742009C534F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEA11831FF80742009C534F /* main.m */; };
 		BEEA118E1FF80742009C534F /* ModuleFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEA118D1FF80742009C534F /* ModuleFactoryTests.m */; };
 		BEEA11991FF80742009C534F /* ModuleFactoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEA11981FF80742009C534F /* ModuleFactoryUITests.m */; };
+		F57DB53A2002FD130062BD78 /* ModulePerformMethodProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F57DB5392002FD130062BD78 /* ModulePerformMethodProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BEEA11941FF80742009C534F /* ModuleFactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleFactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEA11981FF80742009C534F /* ModuleFactoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleFactoryUITests.m; sourceTree = "<group>"; };
 		BEEA119A1FF80742009C534F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57DB5382002FD130062BD78 /* ModulePerformMethodProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModulePerformMethodProvider.h; sourceTree = "<group>"; };
+		F57DB5392002FD130062BD78 /* ModulePerformMethodProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModulePerformMethodProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				BEEA11751FF80742009C534F /* AppDelegate.m */,
 				BEEA11771FF80742009C534F /* ViewController.h */,
 				BEEA11781FF80742009C534F /* ViewController.m */,
+				F57DB53B2002FD1C0062BD78 /* ModulePerformMethodProvider */,
 				BEEA117A1FF80742009C534F /* Main.storyboard */,
 				BEEA117D1FF80742009C534F /* Assets.xcassets */,
 				BEEA117F1FF80742009C534F /* LaunchScreen.storyboard */,
@@ -130,6 +134,15 @@
 				BEEA119A1FF80742009C534F /* Info.plist */,
 			);
 			path = ModuleFactoryUITests;
+			sourceTree = "<group>";
+		};
+		F57DB53B2002FD1C0062BD78 /* ModulePerformMethodProvider */ = {
+			isa = PBXGroup;
+			children = (
+				F57DB5382002FD130062BD78 /* ModulePerformMethodProvider.h */,
+				F57DB5392002FD130062BD78 /* ModulePerformMethodProvider.m */,
+			);
+			path = ModulePerformMethodProvider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEA11791FF80742009C534F /* ViewController.m in Sources */,
+				F57DB53A2002FD130062BD78 /* ModulePerformMethodProvider.m in Sources */,
 				BEEA11841FF80742009C534F /* main.m in Sources */,
 				BEEA11761FF80742009C534F /* AppDelegate.m in Sources */,
 			);
